@@ -1,0 +1,17 @@
+:root {
+    --white: #ffffff;
+    --dark-gray: #222222;
+    --font-family: jetbrains-mono, monospace;
+}
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.initContainer{
+    font-family: var(--font-family);
+    background-color: var(--white);
+    color: var(--dark-gray);
+}
